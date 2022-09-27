@@ -6,7 +6,7 @@ import OTPInput from "./components/OTP/OTPInput";
 export default function App() {
   const [otpCode, setOTPCode] = useState("");
   const [isPinReady, setIsPinReady] = useState(false);
-  const maximumCodeLength = 6;
+  const maximumCodeLength = 4;
   const styles = StyleSheet.create({
     container: {
       flex: 1,
